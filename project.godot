@@ -8,9 +8,20 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node",
+"class": "GodotIcons",
+"language": "GDScript",
+"path": "res://addons/GodotIcons/godot_icons.gd"
+} ]
+_global_script_class_icons={
+"GodotIcons": ""
+}
+
 [application]
 
 config/name="Godot Icons"
+run/main_scene="res://test.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
